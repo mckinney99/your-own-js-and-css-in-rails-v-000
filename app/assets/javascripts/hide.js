@@ -1,4 +1,4 @@
 function hideWhenClicked() {
-  let $target = $(element.target)
-  $target.hide()
+  console.log(" ")
+  $('#hide_this').addClass('hidden')
 }
