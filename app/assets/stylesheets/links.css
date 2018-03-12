@@ -5,3 +5,7 @@
 .cool-background {
   background-color: grey;
 }
+
+.hidden{
+  visibility: hidden
+}
