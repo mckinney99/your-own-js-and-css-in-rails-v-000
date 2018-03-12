@@ -1,3 +1,6 @@
-function hideWhenClicked(){
-  let element = document.getElementById('hide_this')element.onlick
+function hideWhenClicked(element) {
+  var $target = $(element.target)
+  $target.hide()
 }
+
+$('#hide_this').click(hideWhenClicked)
